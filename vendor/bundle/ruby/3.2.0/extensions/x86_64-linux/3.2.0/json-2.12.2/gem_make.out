@@ -1,0 +1,23 @@
+current directory: /home/takum1/cirkit/training/rails-training2025/vendor/bundle/ruby/3.2.0/gems/json-2.12.2/ext/json/ext/parser
+/home/takum1/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+checking for rb_enc_interned_str() in ruby.h... yes
+checking for rb_hash_new_capa() in ruby.h... yes
+checking for rb_hash_bulk_insert() in ruby.h... yes
+checking for strnlen() in string.h... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /home/takum1/cirkit/training/rails-training2025/vendor/bundle/ruby/3.2.0/gems/json-2.12.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20250706-65456-tb1res sitelibdir\=./.gem.20250706-65456-tb1res clean
+
+current directory: /home/takum1/cirkit/training/rails-training2025/vendor/bundle/ruby/3.2.0/gems/json-2.12.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20250706-65456-tb1res sitelibdir\=./.gem.20250706-65456-tb1res
+compiling parser.c
+linking shared-object json/ext/parser.so
+
+current directory: /home/takum1/cirkit/training/rails-training2025/vendor/bundle/ruby/3.2.0/gems/json-2.12.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20250706-65456-tb1res sitelibdir\=./.gem.20250706-65456-tb1res install
+/usr/bin/install -c -m 0755 parser.so ./.gem.20250706-65456-tb1res/json/ext
+
+current directory: /home/takum1/cirkit/training/rails-training2025/vendor/bundle/ruby/3.2.0/gems/json-2.12.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20250706-65456-tb1res sitelibdir\=./.gem.20250706-65456-tb1res clean

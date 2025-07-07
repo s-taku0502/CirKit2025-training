@@ -1,0 +1,37 @@
+current directory: /home/takum1/cirkit/training/rails-training2025/vendor/bundle/ruby/3.2.0/gems/rbs-3.9.4/ext/rbs_extension
+/home/takum1/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+/home/takum1/.rbenv/versions/3.2.2/bin/ruby: warning: Ruby was built without YJIT support. You may need to install rustc to build Ruby with YJIT.
+checking for whether -std=gnu99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /home/takum1/cirkit/training/rails-training2025/vendor/bundle/ruby/3.2.0/gems/rbs-3.9.4/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20250706-62839-1gzm52 sitelibdir\=./.gem.20250706-62839-1gzm52 clean
+
+current directory: /home/takum1/cirkit/training/rails-training2025/vendor/bundle/ruby/3.2.0/gems/rbs-3.9.4/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20250706-62839-1gzm52 sitelibdir\=./.gem.20250706-62839-1gzm52
+compiling ./../../src/constants.c
+compiling ./../../src/ruby_objs.c
+compiling ./../../src/util/rbs_constant_pool.c
+compiling lexer.c
+compiling lexstate.c
+compiling location.c
+compiling main.c
+main.c: In function ‘Init_rbs_extension’:
+main.c:24:3: warning: multi-line comment [-Wcomment]
+   24 |   // grep -o 'INTERN("\([^"]*\)")' ext/rbs_extension/parser.c \
+      |   ^
+main.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling parser.c
+compiling parserstate.c
+compiling unescape.c
+linking shared-object rbs_extension.so
+
+current directory: /home/takum1/cirkit/training/rails-training2025/vendor/bundle/ruby/3.2.0/gems/rbs-3.9.4/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20250706-62839-1gzm52 sitelibdir\=./.gem.20250706-62839-1gzm52 install
+/usr/bin/install -c -m 0755 rbs_extension.so ./.gem.20250706-62839-1gzm52
+
+current directory: /home/takum1/cirkit/training/rails-training2025/vendor/bundle/ruby/3.2.0/gems/rbs-3.9.4/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20250706-62839-1gzm52 sitelibdir\=./.gem.20250706-62839-1gzm52 clean
