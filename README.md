@@ -11,18 +11,11 @@ Things you may want to cover:
 ruby -v # e.g., ruby 3.2.2
 ```
 
-* System dependencies
+Order of the steps to run the application:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+docker compose build
+docker compose up -d
+docker compose exec rails bash
+rails db:migrate
+```
