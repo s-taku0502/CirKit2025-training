@@ -19,3 +19,15 @@ docker compose up -d
 docker compose exec rails bash
 rails db:migrate
 ```
+
+Or if you want to run the application without Docker, you can use:
+
+```bash
+docker compose exec rails bash
+bundle install
+rails db:create
+rails db:migrate
+
+docker compose build
+docker compose up -d
+```
