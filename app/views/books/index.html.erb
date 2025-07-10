@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Books</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <h1>本一覧画面</h1>
+    <table>
+      <tr>
+        <th>タイトル</th>
+        <th>価格</th>
+        <th>出版日</th>
+        <th>コメント</th>
+      </tr>
+
+      <% @books.each do |book| %>
+        <tr>
+          <td><%= book.name %></td>
+          <td><%= book.price %></td>
+          <td><%= book.publish_date %></td>
+          <td><%= book.comment %></td>
+        </tr>
+      <% end %>
+    </table>
+  </body>
+</html>
