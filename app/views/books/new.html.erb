@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Books</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <h1>入力画面</h1>
+    <div>
+      <%= form_with(model: @book, local: true) do |f| %>
+        <%= f.label :name %>
+        <%= f.text_field :name %>
+    
+        <%= f.label :publish_date %>
+        <%= f.date_field :publish_date %>
+
+        <%= f.label :price %>
+        <%= f.number_field :price, min: 0, max: 100000 %>
+
+        <%= f.label :comment %>
+        <%= f.text_area :comment, size: "30x10" %>
+
+        <%= f.submit "新規追加" %>
+      <% end %>
+    </div>
+  </body>
+</html>
